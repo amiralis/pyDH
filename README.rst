@@ -1,7 +1,7 @@
 pyDH
 ====
 
-Pure Python Implementation of Diffie-Hellman Key Exchange
+Pure Python Implementation of Diffie-Hellman Key Exchange. Py2, Py3, PyPy compatible.
 
 
 Example
