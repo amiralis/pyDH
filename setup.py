@@ -4,12 +4,11 @@ from setuptools import setup
 setup(
   name = 'pyDH',
   packages = ['pyDH'],
-  version = '0.1.1',
+  version = '0.1.2',
   description = 'Pure Python Implementation of Diffie-Hellman Key Exchange',
   author = 'Amirali Sanatinia',
   author_email = 'amirali@ccs.neu.edu',
   url = 'https://github.com/amiralis/pyDH',
-  download_url = 'https://github.com/amiralis/pyDH/tarball/0.1',
   keywords = ['crypto', 'Diffie Hellman', 'Key Exchange'],
   classifiers = [
     	'License :: OSI Approved :: Apache Software License',
