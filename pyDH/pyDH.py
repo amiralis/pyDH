@@ -59,8 +59,7 @@ class DiffieHellman:
 			self.p = primes[group]["prime"]
 			self.g = primes[group]["generator"]
 		else:
-			self.p = primes[group]["prime"]
-			self.g = primes[group]["generator"]
+			raise Exception("Group not supported")
 
 		self.__a = int(binascii.hexlify(os.urandom(32)), base=16)
 
