@@ -26,6 +26,6 @@ By default it uses the group 14 (2048 bit). To use another group (e.g., 15): ::
 Installation
 ------------
 
-To install geomap, simply: ::
+To install pyDH, simply: ::
 
     $ pip install pyDH
