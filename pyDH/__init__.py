@@ -1,1 +1,1 @@
-from pyDH import DiffieHellman
+from .pyDH import DiffieHellman
