@@ -1,3 +1,5 @@
+import sys
+sys.path.append('.')
 import pyDH
 
 def test_pydh_keygen():
