@@ -1,7 +1,7 @@
 
 from setuptools import setup
 
-with open("README.rst", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
@@ -11,7 +11,7 @@ setup(
   license = 'Apache',
   description = 'Pure Python Implementation of Diffie-Hellman Key Exchange',
   long_description=long_description,
-  long_description_content_type="text/x-rst",
+  long_description_content_type='text/markdown',
   author = 'Amirali Sanatinia',
   author_email = 'amirali@ccs.neu.edu',
   url = 'https://github.com/amiralis/pyDH',
