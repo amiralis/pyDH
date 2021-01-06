@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setup(
   name = 'pyDH',
   packages = ['pyDH'],
-  version = '0.1.5',
+  version = '0.1.6',
   license = 'Apache',
   description = 'Pure Python Implementation of Diffie-Hellman Key Exchange',
   long_description=long_description,
